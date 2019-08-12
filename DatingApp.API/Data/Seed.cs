@@ -24,7 +24,7 @@ namespace DatingApp.API.Data
 
                 user.PasswordHash = passwordHash;
                 user.PasswordSalt = passwordSalt;
-                user.Usernamne = user.Usernamne.ToLower();
+                user.Username = user.Username.ToLower();
 
                 _context.Users.Add(user);
             }
